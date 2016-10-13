@@ -137,7 +137,7 @@ class BinaryHeap {
 
         arq = new FileWriter("dadosInsert.txt", true);
         PrintWriter gravarArq = new PrintWriter(arq);
-        int contador = 0;
+        int contador = 1;
         while (childInd > 0 && tmp < heap[parent(childInd)]) {
             contador++;
             heap[childInd] = heap[parent(childInd)];

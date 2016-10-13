@@ -28,7 +28,7 @@ public class BinaryHeapTest {
         final int TAMANHO = 3000000;
         //instância um objeto da classe Random usando o construtor básico
         Random gerador = new Random();
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
 
         BinaryHeap bh = new BinaryHeap(gerador.nextInt(10000) + 25000);
 
